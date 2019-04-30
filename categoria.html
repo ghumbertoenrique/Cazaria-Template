@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Cazaria</title>
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/lumino.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css">
+		<link href="css/animate.css" rel="stylesheet" />
+</head>
+<body>
+	<nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#sidebar-collapse"><span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span></button>
+				<a class="navbar-brand" href="#"><span>Cazaria</span></a>
+				<ul class="nav navbar-top-links navbar-right">
+
+				</ul>
+			</div>
+		</div><!-- /.container-fluid -->
+	</nav>
+	<div id="sidebar-collapse" class="col-sm-3 col-lg-2 sidebar">
+		<div class="profile-sidebar">
+			<div class="profile-userpic">
+				<img src="http://placehold.it/50/30a5ff/fff" class="img-responsive" alt="">
+			</div>
+			<div class="profile-usertitle">
+				<div class="profile-usertitle-name">Username</div>
+				<div class="profile-usertitle-status"><span class="indicator label-success"></span>En linea</div>
+			</div>
+			<div class="clear"></div>
+		</div>
+		<div class="divider"></div>
+		<ul class="nav menu">
+			<li class=""><a href="admin.html"><em class="fa fa-dashboard"></em>Dashboard</a></li>
+			<li class="parent active"><a data-toggle="collapse" href="#sub-item-1">
+				<em class="fa fa-wrench"></em> Configuracion <span data-toggle="collapse" href="#sub-item-1" class="icon pull-right"><em class="fa fa-plus"></em></span>
+				</a>
+				<ul class="children collapse" id="sub-item-1">
+					<li><a class="" href="Categoria.html">
+						<span class="fa fa-arrow-right"></span> Categoria
+					</a></li>
+					<li><a class="" href="subCategoria.html">
+						<span class="fa fa-arrow-right">&nbsp;</span> Sub Categoria
+					</a></li>
+				</ul>
+			</li>
+			<li><a href="login.html"><em class="fa fa-power-off"></em> Logout</a></li>
+		</ul>
+	</div><!--/.sidebar-->
+
+	<div class="col-sm-9 col-sm-offset-3 col-lg-10 col-lg-offset-2 main">
+		<div class="row">
+			<ol class="breadcrumb">
+				<li><a href="#">
+					<em class="fa fa-home"></em>
+				</a></li>
+				<li class="active">Categoria</li>
+			</ol>
+		</div>
+		<br>
+		<div class="col-sm-12 col-lg-12">
+			   <div class="wow bounceInUp" data-wow-delay="0.2s">
+			   <div class="container-fluid">
+                <div class="panel panel-default">
+                    <div class="panel-heading" style="background-color: #3d5c4d;color:white">
+                        <h1 class="text-nowrap text-center panel-title"><strong>Categoria </strong></h1></div>
+                    <div class="panel-body">
+                        <div class="table-responsive">
+													<table class="table table-striped table-bordered table-hover">
+														<thead>
+															<tr>
+																<th>Categoria </th>
+																<th>Color </th>
+																<th style="width:200px;">Accion </th>
+															</tr>
+														</thead>
+														<tbody>
+															<tr>
+																<td>Categoria 1</td>
+																<td>Color 1</td>
+																<td>
+																	<button class="text-uppercase btn btn-skin btn-actualizo" href="#"><i class="fa fa-refresh"></i>
+																	</button>
+																	<button class="trash btn btn-actualizo" href="#"><i class="fa fa-trash"></i>
+																	</button>
+																</td>
+															</tr>
+															<tr>
+																<td>Categoria 2</td>
+																<td>Color 2</td>
+																<td>
+																	<button class="text-uppercase btn btn-skin btn-actualizo" href="#"><i class="fa fa-refresh"></i>
+																	</button>
+																	<button class="trash btn btn-actualizo" href="#"><i class="fa fa-trash"></i>
+																	</button>
+																</td>
+															</tr>
+														</tbody>
+														<caption class="lead">¿Necesitas agregar una nueva categoria? click <a class="text-uppercase" href="agregarCategoria.html">Aqui </a></caption>
+													</table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+		</div>
+	</div>
+
+	<script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/wow.min.js"></script>
+  <script src="plugins/cubeportfolio/js/jquery.cubeportfolio.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/custom.js"></script>
+</body>
+</html>

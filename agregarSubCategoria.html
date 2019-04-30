@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Cazaria</title>
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/lumino.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css">
+	<link href="css/animate.css" rel="stylesheet" />
+</head>
+<body>
+	<nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#sidebar-collapse"><span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span></button>
+				<a class="navbar-brand" href="#"><span>Cazaria</span></a>
+				<ul class="nav navbar-top-links navbar-right">
+
+				</ul>
+			</div>
+		</div><!-- /.container-fluid -->
+	</nav>
+	<div id="sidebar-collapse" class="col-sm-3 col-lg-2 sidebar">
+		<div class="profile-sidebar">
+			<div class="profile-userpic">
+				<img src="http://placehold.it/50/30a5ff/fff" class="img-responsive" alt="">
+			</div>
+			<div class="profile-usertitle">
+				<div class="profile-usertitle-name">Username</div>
+				<div class="profile-usertitle-status"><span class="indicator label-success"></span>Online</div>
+			</div>
+			<div class="clear"></div>
+		</div>
+		<div class="divider"></div>
+		<ul class="nav menu">
+			<li class=""><a href="admin.html"><em class="fa fa-dashboard"></em> Dashboard</a></li>
+			<li class="parent active"><a data-toggle="collapse" href="#sub-item-1">
+				<em class="fa fa-wrench"></em> Configuracion <span data-toggle="collapse" href="#sub-item-1" class="icon pull-right"><em class="fa fa-plus"></em></span>
+				</a>
+				<ul class="children collapse" id="sub-item-1">
+					<li><a class="" href="categoria.html">
+						<span class="fa fa-arrow-right"></span> categoria
+					</a></li>
+					<li><a class="" href="subcategoria.html">
+						<span class="fa fa-arrow-right"></span> Subcategoria
+					</a></li>
+				</ul>
+			</li>
+			<li><a href="login.html"><em class="fa fa-power-off"></em> Logout</a></li>
+		</ul>
+	</div><!--/.sidebar-->
+
+	<div class="col-sm-9 col-sm-offset-3 col-lg-10 col-lg-offset-2 main">
+		<div class="row">
+			<ol class="breadcrumb">
+				<li><a href="#">
+					<em class="fa fa-home"></em>
+				</a></li>
+				<li class="active">Subcategoria</li>
+				<li class="active">Agregar</li>
+			</ol>
+		</div>
+		<br>
+		<!-- content here-->
+		<div class="col-sm-12 col-lg-12">
+			<div class="wow fadeInRight" data-wow-duration="2s" data-wow-delay="0.2s">
+				<div class="form-wrapper">
+					<div class="wow fadeInRight" data-wow-duration="2s" data-wow-delay="0.2s">
+						<div class="panel panel-skin">
+							<div class="panel-heading">
+								<h3 class="panel-title">
+									<strong>Crear Subcategoria</strong>
+								</h3>
+							</div>
+							<div class="panel-body" style="background:#3d5c4d">
+								<form role="form" class="lead">
+									<div class="row">
+										<div class="col-xs-6 col-sm-6 col-md-12 form-intro">
+											<div class="form-group">
+												<select class="form-control" id="colore">
+													<option>categoria 1</option>
+													<option>categoria 2</option>
+													<option>categoria 3</option>
+													<option>categoria 4</option>
+												</select>
+											</div>
+										</div>
+										<div class="col-xs-6 col-sm-6 col-md-12 form-intro">
+											<div class="form-group">
+												<select class="form-control" id="colore">
+													<option>Tipo 1</option>
+													<option>Tipo 2</option>
+													<option>Tipo 3</option>
+													<option>Tipo 4</option>
+												</select>
+											</div>
+										</div>
+										<div class="col-xs-6 col-sm-6 col-md-12 form-intro">
+											<div class="form-group">
+												<input placeholder="Nombre de la Subcategoria" type="text" name="nombre" id="nombre" class="form-control input-md">
+											</div>
+										</div>
+										<div class="col-xs-6 col-sm-6 col-md-12 form-intro">
+											<div class="form-group">
+												<input placeholder="" type="file" name="nombre" id="nombre" class="form-control input-md">
+											</div>
+										</div>
+									</div>
+									<br>
+									<button type="submit" name="add" class="btn  btn-block btn-lg btn-cazaria">
+										Agregar <i class="fa fa-save"></i>
+									</button>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--finish content-->
+	</div>	<!--/.main-->
+
+<script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/wow.min.js"></script>
+  <script src="plugins/cubeportfolio/js/jquery.cubeportfolio.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/custom.js"></script>
+  <script type="text/javascript" src="js/lumino.js"></script>
+</body>
+</html>
